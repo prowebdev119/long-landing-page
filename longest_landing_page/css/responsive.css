@@ -1,0 +1,139 @@
+/*Min_width*/
+@media (min-width: 1600px) {
+	.container_menu{max-width: 1420px; padding: 0 15px; margin:  0 auto;}
+	.nav_inner ul li a {font-size: 20px;color: #151b25;font-family: 'ArgentumSansRegular';}
+	.menu_outer ul li {margin-left: 40px;}
+	/*========================
+			banner
+	==========================*/
+	/*.banner_outer{background-size: 100% 110%;}*/
+	/*========================
+			banner
+	==========================*/
+}
+
+@media (min-width: 1900px) {
+}
+
+@media (min-width: 575px) {
+
+}
+
+/*Max-width*/
+@media (max-width: 1400px) {
+	.container_menu{max-width: 1199px; padding: 0 15px; margin:  0 auto;}
+}
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+	.menu_outer ul li, .other_links ul li {margin-left: 10px;}
+	.nav_inner ul li a {font-size: 13px;line-height: 28px; height: 30px;}
+	.header_bnt {padding: 0 10px;}
+	.brand_outer {width: 130px;}
+	.bnr_txt h3 {font-size: 20px;height: 50px;line-height: 46px;}
+	.bnr_txt h2 {font-size: 40px;}
+	.postifluence_img:before{display: none;}
+	.earn_opt_outer {background-size: auto 100%;background-position: left center;}
+	.abt_inner ul li {width: 33.33%; margin: 0 0 40px;}
+	.abt_inner ul li:nth-child(3) {border: 0}
+	.abt_inner ul {justify-content: center;}
+	.demo_video {max-width: 497px;height: 326px;}
+	.demo_outer {padding: 50px 0;}
+	.other_heading h2 {font-size: 30px;line-height: 40px;}
+	.other_heading {margin: 0 auto 45px;}
+	.funnle_inner {flex-wrap: wrap;gap: 45px 64px;}
+	.funnle_inner.max_wdth {max-width: unset;width: 100%;}
+	.funnle_inner .funnle_box:nth-child(3):before, .funnle_inner.max_wdth .funnle_box:last-child:before {display: none;}
+	.funnle_inner.max_wdth .funnle_box:first-child:before {transform: unset;left: 100%;bottom: unset;top: 50%;}
+	.point_counter {margin-bottom: 45px;}
+	.clients_logo_inner li {width: 33.33%;}
+	.get_in_touch ul li {width: 50%;}
+	.get_in_touch ul {justify-content: center;}
+	.footer_outer ul li {width: 50%;margin-bottom: 15px;}
+	.footer_outer ul li a {display: block; text-align: center;}
+	.footer_outer ul {flex-wrap: wrap;}
+	.btm_blk {margin-bottom: 20px}
+}
+
+@media (max-width: 767px) {
+	.menu_outer {overflow: hidden; position: fixed;height: 100vh;z-index: 999;right: 0;top: 0;width: 0%;background: #262626fa;}
+	.menu_outer li a {color: #fff !important;}
+	.menu_outer ul {flex-direction: column;height: 100%;justify-content: center;}
+	.suport_prtner figure {padding: 30px 0px 0;}
+	.quality_box:after, .funnle_box:before, .funnle_inner.max_wdth .funnle_box:first-child:before{display: none;}
+	.quality_box {position: relative;margin-bottom: 40px;}
+	.left_space {right: 0;}
+	.right_space {left: 0px;}
+	.partner_icon_box {margin: 0px 0 40px;}
+	.funnle_inner {gap: unset;justify-content: space-between;}
+	.funnle_box {margin-bottom: 40px;width: 49%;max-width: unset;}
+	.earn_opt_outer h3 {padding: 40px 15px;margin: 30px 0px;}
+	.scnd_pragra {margin: 0;}
+	.last_pragra {padding: 0;}
+	.postifluence_outer .row:nth-child(2) {padding: 0;}
+	.postifluence_outer .row {padding: 40px 0 0;}
+	.abt_inner ul li {width: 50%;margin: 0 0 20px; border-right: 0;}
+	.influencer_outer {padding: 60px 0;}
+	.funnel_outer {padding: 50px 0 10px;}
+}
+
+@media (max-width: 575px) {
+	.bnr_txt h2 {font-size: 30px;}
+	.bnr_txt h3 {font-size: 14px;height: 40px;line-height: 36px;}
+	.bnr_txt p {font-size: 18px;padding: 10px 0px 0;}
+	.other_links li:last-child {display: none;}
+	.toggle_btn {order: 3;width: 40px;margin-left: 20px;background: transparent;color: #000;border-color: #000;}
+	.bnr_shp {bottom: -2px;}
+	.form_outer .form-control {margin-bottom: 10px;}
+	.cmn_heading h2 {font-size: 30px;line-height: 40px;}
+	.ftr_box p {margin: 20px auto}
+	.ftr_outer {padding: 40px 0 20px;}
+	.postifluence_outer {padding: 40px 0;}
+	.abt_inner {padding: 15px;}
+	.about_postifluence {padding: 40px 0;}
+	.demo_arrow {width: 30px;height: 110px;}
+	.oto_blk {padding: 40px 15px 80px;}
+	.clients_logo_inner li {width: 50%;padding: 0 10px;}
+	.clients_logo_inner a {font-size: 25px;line-height: 35px;margin-top: 10px;}
+	.get_in_touch ul li:last-child {width: 100%;margin-top: 15px;}
+	.footer_logo {padding: 0 20px 20px;}
+	.banner_outer, .sign-up-jv_outer {padding: 40px 0;}
+	.jv_btn {font-size: 16px;padding: 0 30px;height: 50px;line-height: 50px;}	
+	.sub_box h4, .postifluence_txt p {font-size: 16px; line-height: 26px;}
+	.contest_heading h2 {font-size: 40px;}
+	.contest_heading h3{font-size: 30px;}
+}
+
+@media (max-width: 480px) {
+	.get_in_touch ul li {width: 100%;margin-top: 20px;}
+	.other_heading h2 {font-size: 25px;line-height: 35px;}
+	.other_holders {flex-wrap: wrap;justify-content: center;}
+	.shp1{display: none;}
+	.funnle_box {margin-bottom: 30px;width: 100%;}
+	.funnle_inner {margin: 0 !important;}
+	.contest_outer{padding: 40px 0;}
+}
+
+@media (max-width: 420px) {
+	.bnr_shp {bottom: -6px;}
+}
+@media (max-width: 375px) {	
+	.contest_heading h2 {font-size: 23px;}
+	.bnr_txt h2 {font-size: 23px;}
+	.bnr_txt h3 {height: auto;line-height: 24px;}
+	.other_heading h2, .btm_blk p, .btm_blk h3, .holder_place.frst_place .point_counter h3, .holder_place .point_counter h3, .earn_opt_outer h3, .contest_heading h3, .funnel_outer .other_heading h3, .oto_txt h3 {font-size: 20px;line-height: 30px;}
+	.sub_box h4, .postifluence_txt p, .ftr_box p, .get_in_touch li a, .footer_outer ul li a, .partner_icon_box p, .clients_logo_inner p, .quality_box_txt p, .details_conest p, .oto_txt p, .abt_inner ul li p, .abt_inner p, .influencer_txt p {font-size: 14px; line-height: 24px;}
+	.torphy_icon {width: 270px;height: 270px;}
+	.holder_place.frst_place .point_counter h3{width: 270px;}
+	.partner_name h3 {font-size: 23px;}
+	.quality_box_txt h3 {font-size: 20px;}
+	.quality_outer  10px{padding: 30px 0 10px;}
+}
+
+@media (max-width: 340px) {
+
+}
+

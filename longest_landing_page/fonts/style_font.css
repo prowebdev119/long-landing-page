@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'ArgentumSansMedium';
+    src: url('fonts/ArgentumSansMedium.eot');
+    src: url('fonts/ArgentumSansMedium.eot') format('embedded-opentype'),
+         url('fonts/ArgentumSansMedium.woff2') format('woff2'),
+         url('fonts/ArgentumSansMedium.woff') format('woff'),
+         url('fonts/ArgentumSansMedium.ttf') format('truetype'),
+         url('fonts/ArgentumSansMedium.svg#ArgentumSansMedium') format('svg');
+}
+
+
+@font-face {
+    font-family: 'ArgentumSansRegular';
+    src: url('fonts/ArgentumSansRegular.eot');
+    src: url('fonts/ArgentumSansRegular.eot') format('embedded-opentype'),
+         url('fonts/ArgentumSansRegular.woff2') format('woff2'),
+         url('fonts/ArgentumSansRegular.woff') format('woff'),
+         url('fonts/ArgentumSansRegular.ttf') format('truetype'),
+         url('fonts/ArgentumSansRegular.svg#ArgentumSansRegular') format('svg');
+}
+
+
+@font-face {
+    font-family: 'ArgentumSansBold';
+    src: url('fonts/ArgentumSansBold.eot');
+    src: url('fonts/ArgentumSansBold.eot') format('embedded-opentype'),
+         url('fonts/ArgentumSansBold.woff2') format('woff2'),
+         url('fonts/ArgentumSansBold.woff') format('woff'),
+         url('fonts/ArgentumSansBold.ttf') format('truetype'),
+         url('fonts/ArgentumSansBold.svg#ArgentumSansBold') format('svg');
+}
+
+@font-face {
+    font-family: 'ArgentumSansBlack';
+    src: url('fonts/ArgentumSansBlack.eot');
+    src: url('fonts/ArgentumSansBlack.eot') format('embedded-opentype'),
+         url('fonts/ArgentumSansBlack.woff2') format('woff2'),
+         url('fonts/ArgentumSansBlack.woff') format('woff'),
+         url('fonts/ArgentumSansBlack.ttf') format('truetype'),
+         url('fonts/ArgentumSansBlack.svg#ArgentumSansBlack') format('svg');
+}
